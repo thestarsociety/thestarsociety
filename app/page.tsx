@@ -3,7 +3,7 @@
 import React, { useLayoutEffect, useState } from "react";
 import { gsap } from "gsap";
 import Loader from "@/components/custom/loader";
-import { Hero } from "@/components/custom/hero";
+import Hero  from "@/components/custom/hero";
 
 const Home: React.FC = () => {
   const [loaderFinished, setLoaderFinished] = useState<boolean>(false);
